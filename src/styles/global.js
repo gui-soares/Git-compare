@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -12,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     background: #9b65e6;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    font-family: sans-serif;
   }
 
 `;

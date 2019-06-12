@@ -11,6 +11,9 @@
 # production
 /build
 
+#vscode debug
+/.vscode
+
 # misc
 .DS_Store
 .env.local
